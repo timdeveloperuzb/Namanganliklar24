@@ -32,17 +32,14 @@ img {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid red;
 }
 
 /* SITE-HEADER */
-.site-header {
-}
+
 /* site header-container */
 .site-header-container {
   display: flex;
   align-items: center;
-  background: #f6f6f6;
 }
 .site-header-top {
   width: 100%;
@@ -50,6 +47,8 @@ img {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  background: #f6f6f6;
+  margin-bottom: 30px;
 }
 .site-header-logo {
   display: flex;
@@ -73,7 +72,7 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-right:auto;
+  margin-right: auto;
 }
 .money-item {
 }
@@ -138,4 +137,39 @@ img {
 }
 .header-auth-link:active {
   opacity: 0.6;
-} 
+}
+
+/* SITE HEADER BOTTOM */
+.site-header-bottom {
+  background: #fff;
+}
+.site-menu {
+  display: flex;
+  list-style: none;
+  color: #d1d1d1;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+
+}
+.site-menu-item {
+  margin-right: 34px;
+}
+.site-menu-link {
+  font-family: "Rubik",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #7f7f7f;
+  text-decoration: none;
+}
+.header-hr {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.banner-img {
+  border-radius: 8px;
+}
