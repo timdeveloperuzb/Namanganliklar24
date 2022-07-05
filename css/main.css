@@ -82,6 +82,23 @@ img {
 .money-item a {
   text-decoration: none;
 }
+
+/* GLOBAL SEARCH FORM */
+.global-search-form {
+  margin-right: 25px;
+}
+
+.global-search-form-input {
+  background: #ffffff;
+  border-radius: 60px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  padding-right: 20px;
+  font-size: 14px;
+  line-height: normal;
+  border: 0;
+}
 /* LANGUAGE */
 
 .header-lang {
@@ -150,13 +167,12 @@ img {
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
-
 }
 .site-menu-item {
   margin-right: 34px;
 }
 .site-menu-link {
-  font-family: "Rubik",sans-serif;
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
