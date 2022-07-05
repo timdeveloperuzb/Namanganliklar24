@@ -78,8 +78,7 @@ img {
   list-style: none;
   margin-right: auto;
 }
-.money-item {
-}
+
 .money-item:not(:last-child) {
   margin-right: 25px;
 }
