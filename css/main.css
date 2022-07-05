@@ -242,10 +242,9 @@ img {
 }
 .article-card-link:hover {
   color: #7296ec;
-
 }
 .article-card-link:active {
-  opacity: 0.6;  
+  opacity: 0.6;
 }
 .article-card-text {
   width: 346px;
@@ -265,7 +264,7 @@ img {
   border-radius: 10px;
   width: 359px;
   height: 165px;
-  margin-top: 15px; 
+  margin-top: 15px;
   margin-bottom: 15px;
   object-fit: cover;
 }
@@ -282,19 +281,54 @@ img {
 .article-card-source-time {
   font-size: 12px;
   font-style: normal;
-
 }
 .article-card-source {
-  font-family: "Rubik" , sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   line-height: 14px;
   color: #5e5f61;
 }
 .article-card-time {
-  font-family: "Rubik" , sans-serif;
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   color: #5e5f61;
+}
+
+/* NOTIFIKATION CTA */
+
+.notification-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  margin: 60px 75px;
+  background: #ffd7ba;
+  padding: 25px 70px 25px 25px;
+  border-radius: 10px;
+}
+.notifikation-cta-text {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.header-auth-link {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.button-orange {
+  display: inline-block;
+  background: #f78b3b;
+  border-radius: 10px;
+  border: 0;
 }
