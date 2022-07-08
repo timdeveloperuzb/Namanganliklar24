@@ -374,8 +374,7 @@ img {
   margin-right: 15px;
   object-fit: cover;
 }
-.world-news-card-info {
-}
+
 .world-news-title {
   width: 535px;
   height: 52px;
@@ -439,8 +438,7 @@ img {
 .world-news-link:active {
   opacity: 0.6;
 }
-.world-news-right {
-}
+
 .glavnoe-card {
   background: #f6f6f6;
   border-radius: 15px;
