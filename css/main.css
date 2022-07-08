@@ -332,3 +332,166 @@ img {
   border-radius: 10px;
   border: 0;
 }
+
+/* WORLD NEWS */
+
+.world-news {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.world-news-info {
+  display: flex;
+}
+.world-news-title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.world-news-left {
+  margin-bottom: -10px;
+  margin-right: 10px;
+}
+.world-news-card {
+  display: flex;
+  align-items: center;
+  background: #f6f6f6;
+  border-radius: 15px;
+  width: 797px;
+  padding: 0;
+  margin: 0;
+  padding: 20px 17px;
+  margin-bottom: 10px;
+}
+.world-news-card-image {
+  display: flex;
+  border-radius: 10px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+.world-news-card-info {
+}
+.world-news-title {
+  width: 535px;
+  height: 52px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.world-news-card-text {
+  width: 535px;
+  height: 66px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4a4b4c;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 17px;
+}
+.world-news-card-footer {
+  display: flex;
+  align-items: center;
+}
+.world-news-card-footer-image {
+  margin-right: 10px;
+  display: flex;
+}
+.world-news-card-source-time {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5e5f61;
+}
+.world-news-link {
+  background: #eaeaea;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 17px 343px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.world-news-link:hover {
+  opacity: 0.8;
+}
+.world-news-link:active {
+  opacity: 0.6;
+}
+.world-news-right {
+}
+.glavnoe-card {
+  background: #f6f6f6;
+  border-radius: 15px;
+  width: 393px;
+  height: 502px;
+  padding: 0;
+  margin: 0;
+  padding: 20px 17px;
+  margin-bottom: 10px;
+}
+.glavnoe-title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.glavnoe-title-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.glavnoe-footer-source-time {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #5e5f61;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.glavnoe-footer-hr {
+  border: 1px solid #d2d2d2;
+}
+
+.world-news-right-img {
+  display: block;
+  border-radius: 15px;
+  width: 393px;
+  height: 338px;
+  object-fit: cover;
+}
