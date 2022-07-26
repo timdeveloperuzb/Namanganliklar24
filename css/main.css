@@ -590,7 +590,7 @@ img {
   padding: 0;
 }
 .site-footer-social-network-list {
-  display: flex;  
+  display: flex;
   margin: 0;
   padding: 0;
 }
@@ -601,10 +601,126 @@ img {
 }
 .site-footer-social-network-item:not(:last-child) {
   margin-right: 25px;
-
 }
 .site-footer-social-link {
   text-decoration: none;
 }
-.site-footer-img {
+
+/* FBM */
+.fbm-ilon-mask-car-info {
+  /* border: 2px solid red; */
+  margin-bottom: 50px;
+}
+.fbm-logo {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.fbm-ilon-mask {
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin-bottom: 30px;
+}
+.fbm-title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.fbm-img {
+  display: flex;
+  border-radius: 13px;
+  margin-bottom: 25px;
+}
+.fbm-text {
+  width: 797px;
+  margin-bottom: 24px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.fbm-text:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.fbm-hr {
+  border: 0;
+  height: 1px;
+  background: #d2d2d2;
+  margin-bottom: 60px;
+}
+
+/* INTEREST */
+.new-interest {
+}
+.news-interest-title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.interest-card {
+  width: 393px;
+  height: 207px;
+  display: flex;
+}
+.news-blog {
+  padding: 20px 18px 15px 17px;
+  background: #f6f6f6;
+  border-radius: 15px;
+}
+.news-blog:not(:last-child) {
+
+  margin-right: 10px;
+}
+.news-blog-title {
+  padding: 0;
+  margin: 0;
+  width: 358px;
+  height: 78px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.news-iterest-text {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4a4b4c;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.article-card-footer {
+}
+.article-card-source-icon {
+}
+.article-card-source-time {
+}
+.article-card-source {
+}
+.article-card-time {
 }
